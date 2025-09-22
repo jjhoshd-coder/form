@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- title===================================================  -->
+     <title>Coffee Shop Website Using HTML , CSS , And JavaScriot</title>
+      <!-- CSS=====================================================  -->
+      <link rel="stylesheet" href="CSS/style.css"> 
+     <!-- fav-icon================================================= -->
+     <link rel="shortcut icon" href="images (2).zip/fav-icon-png"/>  
+     <!-- import-font=============================================== -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+ 
+
+</head>
+<body>
+     <!-- main===================================================  -->
+       <section id="main"> 
+       
+        <!-- header============================================== -->
+         <header> 
+            <!-- **navigation -->
+              <nav class="navigation"> 
+                <!-- menu-btn -->
+                <input type="checkbox" id="menu-btn" class="menu-btn"/> 
+                  <label for="menu-btn">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                 </label> 
+
+                  <!-- menu-btn -->
+                   <div class="side-menu">
+                       <div class="menu-container">
+                        <strong>Main Links</strong>
+                        <!-- close-btn --> 
+                         <label for="menu-btn" class="close-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                         </label> 
+                          <!-- menu-list -->
+                         <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#"> Menu</a></li>
+                          </ul>
+                       </div>
+                   </div> 
+                 <!-- logo -->
+                  <a href="#" class="logo">
+                    <img src="./amg.11/logo.png" alt="Logo"/>
+                  </a> 
+
+
+                  <!-- nav-btns -->
+                    <div class="nav-btns"> 
+                    <!-- search -->
+                      <a href="javascript:void(0);" class="nav-search">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 16 16"><path fill="currentColor" d="m15.7 14.3l-4.2-4.2c-.2-.2-.5-.3-.8-.3c.8-1 1.3-2.4 1.3-3.8c0-3.3-2.7-6-6-6S0 2.7 0 6s2.7 6 6 6c1.4 0 2.8-.5 3.8-1.4c0 .3 0 .6.3.8l4.2 4.2c.2.2.5.3.7.3s.5-.1.7-.3c.4-.3.4-.9 0-1.3zM6 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5s4.5 2 4.5 4.5s-2 4.5-4.5 4.5z"/></svg>
+                     </a>
+                     <!-- user  -->
+                      
+                     <a href="javascript:void(0);" class="nav-user">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"> <circle cx="12" cy="6" r="4"/><path d="M21 22a1 1 0 0 0-18 0Z"/></g></svg>
+                     </a>
+                      
+                     
+      
+
+                      <!-- cart -->
+                        <a href="#" class="nav cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="currentColor" d="M0 1h4.764l.545 2h18.078l-3.666 11H7.78l-.5 2H22v2H4.72l1.246-4.989L3.236 3H0V1Zm7.764 11h10.515l2.334-7H5.855l1.909 7ZM4 21a2 2 0 1 1 4 0a2 2 0 0 1-4 0Zm14 0a2 2 0 1 1 4 0a2 2 0 0 1-4 0Z"/></svg>
+                        <span>0</span>
+                       </a>
+                   </div>
+             </nav>
+         </header>  
+
+               <!-- main-content-====================   -->
+               <div class="main-content">
+                   <!-- text   -->
+                    <div class="main-content-text">
+                        <strong>Coffee</strong>
+                        <h1>Enjoy<br/> Your Morning <br/> Coffee</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam consequuntur distinctio voluptas, id autem totam.</p>
+                        <span>$19.50</span>
+                        <a href="#" > Add To Cart </a>
+                    </div>
+                    <!-- img -->
+                     <div class="main-content-img">
+                        <img src="./amg.11/model.png" alt="model"/>
+                     </div>
+                 </div>
+
+      </section>
+    
+
+      <!-- == search ============================= -->
+       <div class="search-bar">
+        <!-- input -->
+         <form class="search-input">
+            <input type="text" name="search" placeholder="Search For Product"/>
+            <!-- cancel-btn -->
+        <a href="javascript:void(0);" class="search cancel">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+             </a>
+         </form>
+       </div>
+
+           <!-- login sign up  -->
+             <!-- == login-sign-up -->
+         <div class="form">
+             <!-- **login****************  -->
+              <div class="login-form">
+                <!-- cancel-btn -->
+                  <a href="javascript:void(0);" class="form-cancel">
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                 </a> 
+                  <!-- heading  -->
+                   <strong> Log In </strong>  
+                  <!-- inputs=== -->
+                    <form>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <input type="submit" value="Log In"/>
+                   </form>
+                   <div class="form-btns">
+                    <a href="#" class="forget"> Forget Your Password </a>
+                    <a href="javascript:void(0);" class="sign-up-btn"> Create An Account?</a>
+                   </div>
+              </div>
+        
+
+               <!-- **login****************  -->
+              <div class="sign-up-form">
+                <!-- cancel-btn -->
+                  <a href="javascript:void(0);" class="form-cancel">
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="1em" width="1em"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3l105.4 105.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                 </a> 
+                  <!-- heading  -->
+                   <strong> Sign Up </strong>  
+                  <!-- inputs=== -->
+                    <form>
+                    <input href="text" name="fullname" placeholder="Full Name" required/>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <input type="submit" value="Sign Up"/>
+                   </form>
+                   <div class="form-btns">
+                    <a href="#" class="forget"> Forget Your Password </a>
+                    <a href="javascript:void(0);" class="already-account"> Already Have An Account?</a>
+                   </div>
+              </div>
+              </div>
+             
+
+              <!-- popular========================= -->
+               <section id="popular">
+                <!-- heading=============************* -->
+                <h2>Popular Coffee</h2>
+
+                <!-- === container=========== -->
+                 <div class="popular-container">
+
+                    <!-- *** product-container -->
+                     <div class="popular-product-container">
+
+                        <!-- box 1-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p1.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+
+                             <!-- box 2-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p2.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+
+                            
+                           <!-- box 3-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p3.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                             
+
+                           <!-- box 4-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p4.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                              
+
+
+                           <!-- box 5-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p5.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                            
+
+
+                           <!-- box 6-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p6.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                             
+                     </div>
+
+
+
+                     <!-- banner===== -->
+                      <div class="popular-banner">
+                        <!-- text -->
+                        <div class="popular-banner-text">
+                            <h3>Coffee Beans Collection</h3>
+                            <a href="#"> Shop New </a>
+                        </div>
+                        <!-- img -->
+                         <div class="popular-banner img">
+                            <img src="./amg.11/menu-4 (1).png" alt="banner"/>
+                         </div>
+                      </div>
+                 </div>
+               </section>
+
+               <!-- banner****************====================== -->
+                <section id="shopping-banner">
+                    <div class="shopping-banner-container">
+                        <!-- text -->
+                         <div class="shopping-banner-text">
+                            <strong>Collection</strong>
+                            <h3>Beautiful Coffee Beans</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ducimus velit aliquam quos, odit aut.</p>
+                            <a href="#">Shop New</a>
+                         </div>
+                         <!-- img -->
+                          <div class="shopping-banner-img">
+                            <img src="./amg.11/banner-img.png" alt="banner"/>
+                          </div>
+                    </div>
+                </section>
+
+                <!-- recent-product==================== -->
+                 <section id="recent-product">
+                    <h2>Recent Coffee Collection</h2>
+
+                    <!-- ==container============ -->
+                     <div class="recent-product-container">
+                               
+                       
+                             <!-- box 1-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p7.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+
+                            
+                           <!-- box 2-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p8.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                             
+
+                           <!-- box 3-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p9.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                              
+
+
+                           <!-- box 4-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/p10.png" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                            
+
+
+
+                     </div>
+
+                 </section>
+
+
+
+                  <!-- == partner-logo========================== -->
+                   <section id="partner">
+                    <img src="./amg.11/logo-1.png" alt="logo"/>
+                    <img src="./amg.11/logo-2.png" alt="logo"/>
+                    <img src="./amg.11/logo-3.png" alt="logo"/>
+                    <img src="./amg.11/logo-4.png" alt="logo"/>
+                   </section>
+
+                 
+                   
+                     
+                   <!-- recent-product============================== -->
+                   <section id="recent-product">
+                    <h2>Coffee Collection</h2>
+
+                    <!-- ==container============ -->
+                     <div class="recent-product-container">
+                               
+                       
+                             <!-- box 1-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/pl4.webp" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+
+                            
+                           <!-- box 2-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/pl3.webp" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                             
+
+                           <!-- box 3-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/pl2.webp" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                              
+
+
+                           <!-- box 4-->
+                         <div class="product-box">
+                            <!-- img -->
+                             <a href="#" class="product-box-img">
+                                <img src="./amg.11/pl1.webp" alt="product">
+                                <span>New</span>
+                             </a>
+                             <!-- text -->
+                              <div class="product-box-text">
+                                <a href="#" class="product-text-title">Coffee Beans</a>
+                                <span>25$ <del>45$</del></span>
+                                <a href="#" class="product-cart-btn">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
+                                    Add To Cart
+                                </a>
+                              </div>
+                         </div>
+                            
+
+
+
+                     </div>
+
+                   </section>
+
+                     <!-- =doenload-app -->
+                      <!-- <section class="download-app"> -->
+                        <!-- img -->
+                         <!-- <div class="app-img"> -->
+                            <!-- <img src="./amg.11/mobile-app.jpg" alt="app"> -->
+                         <!-- </div> -->
+                         <!-- text -->
+                          <!-- <div class="download-app-text"> -->
+                            <!-- <strong>Download App</strong> -->
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iure sequi aperiam eum corporis animi.</p> -->
+                            <!-- btns -->
+                             <!-- <div class="download-btns"> -->
+                            <!-- /    <a href="#"> -->
+                                    <!-- <img src="./amg.11/appstore-btn.png" alt="app store"> -->
+                             <!-- /   </a> -->
+                                <!-- <a href="#"> -->
+                                    <!-- <img src="./amg.11/googleplay-btn.png" alt="google play store"/> -->
+                           <!-- /  /   </a> -->
+                             <!-- </div> -->
+                         <!-- / /</div> -->
+                      <!-- /</section> -->
+                   <!-- <a href="https://wa.me/201222908797" target="_blank">اطلب الآن عبر واتساب</a> -->
+
+           
+
+                                 <!-- /////////////////// -->
+
+                                    <!-- Menu Start -->
+        <section id="menu">
+            <div class="containet">
+                <div class="heading">
+                    <span class="text-primary"></span>
+                    <h2></h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Item 1 -->
+                        <div class="itm">
+                            <img src="./amg.11/menu-1.png" alt="Espressso">
+                            <div class="details">
+                                <h3> Espressso </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $23 </p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="itm">
+                            <img src="./amg.11/menu-2.png" alt="Americano">
+                            <div class="details">
+                                <h3> Americano </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $11 </p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="itm">
+                            <img src="./amg.11/menu-3 (1).png" alt="Cappuccino">
+                            <div class="details">
+                                <h3> Cappuccino </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $10 </p>
+                            </div>
+                        </div>
+                        <!-- Item 4-->
+                        <div class="itm">
+                            <img src="./amg.11/menu-4 (1).png" alt="Cappuccino">
+                            <div class="details">
+                                <h3> Cappuccino </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $34 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Item 5-->
+                        <div class="itm">
+                            <img src="./amg.11/menu-5 (1).png" alt="Espressso">
+                            <div class="details">
+                                <h3> Espressso </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $21.7 </p>
+                            </div>
+                        </div>
+                        <!-- Item 6-->
+                        <div class="itm">
+                            <img src="./amg.11/menu-6 (1).png" alt="Flat White">
+                            <div class="details">
+                                <h3> Flat White </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $12.4 </p>
+                            </div>
+                        </div>
+                        <!-- Item 7-->
+                        <div class="itm">
+                            <img src="./amg.11/menu-7 (1).png" alt="Cortado">
+                            <div class="details">
+                                <h3> Cortado </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $9.5 </p>
+                            </div>
+                        </div>
+                        <!-- Item 8-->
+                        <div class="itm">
+                            <img src="./amg.11/menu-8 (1).png" alt="Moche">
+                            <div class="details">
+                                <h3> Moche </h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, ipsa!.</p>
+                            </div>
+                            <div class="prive">
+                                <p class="text-primary"> $19.9 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu Eed -->
+
+
+
+
+
+
+
+
+
+      <!-- ======================================= -->
+                         <section id="testimonials">
+            <div class="container">
+                <div class="heading">
+                    <h2> What our Clients says </h2>
+                </div>
+                <div class="row">
+                    <div class="itm">
+                        <img src="./amg.11/WhatsApp Image 2025-09-22 at 10.58.22 AM (1).jpeg" alt="Mohammed Khaled">
+                        <h3>Mohammed Ayman</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio placeat odit doloribus.
+                        </p>
+                    </div>
+                    <div class="itm">
+                        <img src="./amg.11/WhatsApp Image 2025-09-22 at 10.58.22 AM.jpeg" alt="Khaled Ahmed">
+                        <h3>Khaled Suliman</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio placeat odit doloribus.
+                        </p>
+                    </div>
+                    <div class="itm">
+                        <img src="./amg.11/WhatsApp Image 2025-09-22 at 10.58.22 AM (2).jpeg" alt="Shmas Soliman">
+                        <h3>Adham Ayman</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio placeat odit doloribus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- blog=============== -->
+         <!-- <section id="blog">
+             heading=========== -->
+             <!-- <div class="blog-hrading">
+                <h3>Recent New</h3>
+             </div>
+
+
+
+
+         </section>
+      -->
+
+   <!-- <a href="https://wa.me/201222908797" target="_blank" 
+   style="display:inline-block; padding:10px 20px; background:#25D366; color:white; text-decoration:none; border-radius:8px; font-weight:bold;">
+   اطلب الآن عبر واتساب
+  </a> -->
+
+         <!-- Contact Start -->
+        <section id="Contact">
+            <div class="container">
+                <div class="heading">
+                    <span class="text-primary"></span>
+                    <h2>  </h2>
+                </div>
+            </div>
+
+
+             <main class="reservation-section">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.525694774307!2d30.978040774659746!3d30.021098674936938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b3f3ba7f30d%3A0x7fd88a97f82082c!2sCosta%20Coffee!5e0!3m2!1sen!2seg!4v1695901589473!5m2!1sen!2seg"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="form-container">
+  <h2>BOOK A TABLE</h2>
+  <form action=https://formspree.io/f/xeorjkye method="POST">
+
+  <!-- </form>  <form action="https://formsubmit.co/khaledawwad1234@gmail.com" method="post"> -->
+    <!-- منع السبام وتهيئة شكل الرسالة -->
+   <!-- <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="box">
+  -->
+    <!-- <بيانات المستخدم  -->
+  
+     <input type="text" name="name" required  placeholder="Name">
+      <input type="email" name="email" required  placeholder="Email">
+     <!-- <input type="text" name="submit" required  placeholder="Submit"> -->
+    <!-- الوقت بصيغة نص علشان مفيش مشاكل -->
+    <!-- <input type="text" name="time" placeholder="Preferred time (e.g. 14:30)" required> -->
+
+    <!-- رسالة اختيارية -->
+    <textarea name="message" required  placeholder="Message"></textarea>
+
+    <!-- زر الحجز -->
+    <button type="submit">BOOK A TABLE</button>
+  </form>
+</div>
+
+
+        </section>
+        <!-- Contact End  -->
+
+       <!-- ==script======================= -->
+
+        
+
+  <a href="https://wa.me/201222908797" target="_blank" 
+   style="display:inline-block; padding:10px 20px; background:#25D366; color:white; text-decoration:none; border-radius:8px; font-weight:bold;">
+   اطلب الآن عبر واتساب
+  </a> 
+
+        <script>
+
+              document.addEventListener('DOMConttentLoaded', function(event){
+
+                // Search==================================================//
+                document.addEventListener('click',function(event){
+                   if(event.target.closest('.nav-search')){
+                    document.querySelector('.search-bar').classList.add('search-bar-active');
+                   }
+                   else if(event.target.closest('.search cancel')){
+                    document.querySelector('.search-bar').classList.remove('search-bar-active');
+                   }
+
+
+                });
+
+                    // login and singup==================================================//
+                    document.addEventListener('click',function(event){
+                        const formElement = document.querySelector('.form');
+                          // check if the click elements has the class '.'nav-user' or 'already-account' //
+                          if(event.target.closest('.nav-user, .already-account')) {
+                            // const formElement = document.querySelector('.form');
+                           formElement.classList.add('.login-active');
+                           formElement.classList.remove('.sign-up-active');
+                          }
+
+                           // check if the click elements has the class '.sign-up-btn //
+                          if(event.target.closest('.sign-up-btn')) {
+                           formElement.classList.remove('.login-active');
+                           formElement.classList.add('.sign-up-active');
+                          }
+
+                          // check if the click elements has the class '.sign-up-btn //
+                          if(event.target.closest('.form-cancel')) {
+                           formElement.classList.remove('.login-active');
+                           formElement.classList.remove('.sign-up-active');
+                          }
+              });
+            
+            });
+        </script>
+
+</body>
+</html> 
+  
