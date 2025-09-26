@@ -73,8 +73,13 @@
                       <!-- cart -->
                         <a href="#" class="nav cart">
                         <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="currentColor" d="M0 1h4.764l.545 2h18.078l-3.666 11H7.78l-.5 2H22v2H4.72l1.246-4.989L3.236 3H0V1Zm7.764 11h10.515l2.334-7H5.855l1.909 7ZM4 21a2 2 0 1 1 4 0a2 2 0 0 1-4 0Zm14 0a2 2 0 1 1 4 0a2 2 0 0 1-4 0Z"/></svg>
-                        <span>0</span>
+                        <span id="cart-count">0</span>
+
                        </a>
+                            <div id="cart-box" style="display:none; background:#f8f8f8; padding:10px; margin:10px 0;">
+                         <h3>Your Cart</h3>
+                      <ul id="cart-items"></ul>
+                     </div>
                    </div>
              </nav>
          </header>  
@@ -179,7 +184,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -197,7 +202,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -216,7 +221,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -235,7 +240,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -255,7 +260,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -275,7 +280,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btnadd-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -337,7 +342,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -356,7 +361,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -375,7 +380,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -395,7 +400,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -441,7 +446,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -460,7 +465,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -479,7 +484,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -499,7 +504,7 @@
                               <div class="product-box-text">
                                 <a href="#" class="product-text-title">Coffee Beans</a>
                                 <span>25$ <del>45$</del></span>
-                                <a href="#" class="product-cart-btn">
+                                <a href="#" class="product-cart-btn add-to-cart">
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="1em" height="1em" fill="currentColor"><path d="M576 216c0-13.3-10.7-24-24-24H461.2L320 16.6c-9.1-12.2-26.8-12.2-35.9 0L114.8 192H24c-13.3 0-24 10.7-24 24 0 2.8 .5 5.5 1.5 8l80 240c3.4 10.1 12.9 16 23.5 16H495c10.6 0 20.1-6 23.5-16l80-240c1-2.5 1.5-5.2 1.5-8zM288 72.6 393.4 192H182.6L288 72.6zM144 432c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm288 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"/></svg>
                                     Add To Cart
                                 </a>
@@ -731,6 +736,8 @@
   
      <input type="text" name="name" required  placeholder="Name">
       <input type="email" name="email" required  placeholder="Email">
+       <!-- هنا هنخزن بيانات السلة -->
+    <input type="hidden" name="cartItems" id="cart-items-input">
      <!-- <input type="text" name="submit" required  placeholder="Submit"> -->
     <!-- الوقت بصيغة نص علشان مفيش مشاكل -->
     <!-- <input type="text" name="time" placeholder="Preferred time (e.g. 14:30)" required> -->
@@ -798,6 +805,78 @@
             });
         </script>
 
+  let cart = [];
+
+// تحديث عداد السلة
+function updateCartCount() {
+  const cartCount = document.querySelector(".cart span");
+  cartCount.textContent = cart.length;
+}
+
+// تحديث عرض السلة
+function renderCart() {
+  const cartList = document.getElementById("cart-items-list");
+  cartList.innerHTML = "";
+
+  cart.forEach((item, index) => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      ${item.name} - $${item.price} x 
+      <input type="number" min="1" value="${item.quantity}" data-index="${index}" class="cart-qty">
+      <button data-index="${index}" class="remove-item">Remove</button>
+    `;
+    cartList.appendChild(li);
+  });
+
+  // تعديل الكمية
+  document.querySelectorAll(".cart-qty").forEach(input => {
+    input.addEventListener("change", (e) => {
+      const i = e.target.getAttribute("data-index");
+      cart[i].quantity = parseInt(e.target.value);
+      updateCartCount();
+    });
+  });
+
+  // حذف المنتج
+  document.querySelectorAll(".remove-item").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const i = e.target.getAttribute("data-index");
+      cart.splice(i, 1);
+      updateCartCount();
+      renderCart();
+    });
+  });
+}
+
+// إضافة المنتجات للسلة
+document.querySelectorAll(".add-to-cart").forEach(button => {
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    const productBox = button.closest(".product-box");
+    const title = productBox.querySelector(".product-text-title").textContent;
+    const priceText = productBox.querySelector("span").textContent;
+    const price = parseFloat(priceText.replace("$", ""));
+
+    // إذا المنتج موجود نزود الكمية بدل الإضافة مرة جديدة
+    const existing = cart.find(item => item.name === title);
+    if (existing) {
+      existing.quantity++;
+    } else {
+      cart.push({ name: title, price: price, quantity: 1 });
+    }
+
+    updateCartCount();
+    renderCart();
+    alert(`${title} تم إضافته للسلة!`);
+  });
+});
+
+// ربط السلة بالفورم
+const form = document.querySelector(".form-container form");
+form.addEventListener("submit", function() {
+  const cartItemsInput = document.getElementById("cart-items-input");
+  cartItemsInput.value = JSON.stringify(cart);
+});
+                                 
 </body>
 </html> 
-  
