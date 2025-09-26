@@ -804,16 +804,17 @@
             
             });
         </script>
-<script><
+     
+<script>
   let cart = [];
 
-// تحديث عداد السلة
+// 
 function updateCartCount() {
   const cartCount = document.querySelector(".cart span");
   cartCount.textContent = cart.length;
 }
 
-// تحديث عرض السلة
+//
 function renderCart() {
   const cartList = document.getElementById("cart-items-list");
   cartList.innerHTML = "";
@@ -828,7 +829,7 @@ function renderCart() {
     cartList.appendChild(li);
   });
 
-  // تعديل الكمية
+  // 
   document.querySelectorAll(".cart-qty").forEach(input => {
     input.addEventListener("change", (e) => {
       const i = e.target.getAttribute("data-index");
@@ -837,7 +838,7 @@ function renderCart() {
     });
   });
 
-  // حذف المنتج
+  // 
   document.querySelectorAll(".remove-item").forEach(btn => {
     btn.addEventListener("click", (e) => {
       const i = e.target.getAttribute("data-index");
@@ -848,7 +849,7 @@ function renderCart() {
   });
 }
 
-// إضافة المنتجات للسلة
+// 
 document.querySelectorAll(".add-to-cart").forEach(button => {
   button.addEventListener("click", (e) => {
     e.preventDefault();
@@ -857,7 +858,7 @@ document.querySelectorAll(".add-to-cart").forEach(button => {
     const priceText = productBox.querySelector("span").textContent;
     const price = parseFloat(priceText.replace("$", ""));
 
-    // إذا المنتج موجود نزود الكمية بدل الإضافة مرة جديدة
+    // 
     const existing = cart.find(item => item.name === title);
     if (existing) {
       existing.quantity++;
@@ -867,11 +868,11 @@ document.querySelectorAll(".add-to-cart").forEach(button => {
 
     updateCartCount();
     renderCart();
-    alert(`${title} تم إضافته للسلة!`);
+    alert;
   });
 });
 
-// ربط السلة بالفورم
+//
 const form = document.querySelector(".form-container form");
 form.addEventListener("submit", function() {
   const cartItemsInput = document.getElementById("cart-items-input");
@@ -880,4 +881,5 @@ form.addEventListener("submit", function() {
     </script>                             
 </body>
 </html> 
+
 
